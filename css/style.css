@@ -25,6 +25,10 @@
   padding: 15px;
 }
 
+.font-awesome-input {
+  font-family:Arial, FontAwesome;
+}
+
 .form-input {
   border-radius: 5px;
   border-color: #a6a6a6;
@@ -34,7 +38,7 @@
   border-color: #000;
 }
 
-#form-submit {
+#form-subscribe {
   border-radius: 5px;
   padding: 12px 35px;
 }
