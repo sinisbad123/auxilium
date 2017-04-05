@@ -23,17 +23,26 @@
         <div class="small-10 small-offset-1 large-4 large-offset-8 columns panel-box">
           <h4 class="text-center"><b>We can't wait to breathe life into your <i>ideas</i>.</b></h4>
 
-          <form>
-            <p class="text-center">In <b><i title="In latin, auxilium means help.">Auxilium</i></b>, we'll make sure to help you achieve your web presence, one step at a time.</p>
+          <p class="text-center">In <b><i title="In latin, auxilium means help.">Auxilium</i></b>, we'll make sure to help you achieve your web presence, one step at a time.</p>
 
-            <p class="text-center"><b>Subscribe</b> to receive special offers, discounts and news so we can start working on your rep around the web.</p>
+          <p class="text-center"><b>Subscribe</b> to receive special offers, discounts and news so we can start working on your rep around the web.</p>
 
-            <input class="form-input font-awesome-input" type="text" name="full_name" placeholder="&#xf2bd; Your name" />
-            <input class="form-input font-awesome-input" type="email" name="email" placeholder="&#xf0e0; Your Email" />
+          <form method="post">
+
+            <input id="full_name" class="form-input font-awesome-input" type="text" name="full_name" placeholder="&#xf2bd; Your name" />
+            <input id="email" class="form-input font-awesome-input" type="email" name="email" placeholder="&#xf0e0; Your Email" />
+
+            <p id="error_message" class="text-center">Please fill in the fields.</p>
+            
+            <p id="loading_message" class="text-center"><span><img src="img/loading.gif"></span> Subscribing...</p>
 
             <input id="form-subscribe" class="secondary button expanded float-center" type="submit" value="Subscribe" />
           </form>
+
+          <p id="success_message" class="text-center">Subscribed! You'll hear from us soon. ;)</p>
           
+
+
         </div>
       </div>
     </div>

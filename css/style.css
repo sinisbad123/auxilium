@@ -42,3 +42,17 @@
   border-radius: 5px;
   padding: 12px 35px;
 }
+
+#success_message {
+  border: 1px;
+  background: #dff0d8;
+  border-radius: 2px;
+  padding: 3px;
+}
+
+#error_message {
+  border: 1px;
+  background: #f2dede;
+  border-radius: 2px;
+  padding: 3px;
+}
