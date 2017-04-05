@@ -29,7 +29,9 @@ $(document).ready(function() {
 			   data: {subscribe_data: subscribe_object},
 			   type: 'POST',
 			   success: function(response) {
+          console.log("raw response", response);
 			   	var response_data = jQuery.parseJSON(response);
+          console.log('response',response_data);
 			   	
 			   	if (response_data.status == 'success') {
 			   		error_message.hide();

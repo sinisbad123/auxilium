@@ -5,6 +5,6 @@ $password = "";
 $db = "auxilium";
 
 //Connect to database assuming there will be no problem in the connection
-mysql_connect($host,$user,$password);
-mysql_select_db($db);
+$con = mysqli_connect($host,$user,$password);
+mysqli_select_db($con, $db);
 ?>

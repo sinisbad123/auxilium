@@ -19,7 +19,7 @@
 					. "'$name',"
 					. "'$email')";
 
-		$result = mysql_query($sql_query);
+		$result = mysqli_query($con, $sql_query);
 
 		if (!$result) {
 			$json_data = array(
