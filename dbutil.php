@@ -1,8 +1,8 @@
 <?php
-$host = "localhost";
-$user = "root";
+$host = "";
+$user = "";
 $password = "";
-$db = "auxilium";
+$db = "";
 
 //Connect to database assuming there will be no problem in the connection
 $con = mysqli_connect($host,$user,$password);
